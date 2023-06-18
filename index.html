@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary " data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand"><img style="height: 45px; width: 280px;"
+                    src="img2/Aman_sehgal-removebg-preview.png" alt=""></a>
+                    <a href="./playlist.html"><button type="button" class="btn btn-secondary"> My Playlist</button>
+                    <a href="./upload.html"><button type="button" class="btn btn-secondary">Upload+</button>
+                    <a href="./signin.html"><button type="button" class="btn btn-secondary">Sign IN/UP</button>
+
+</a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn b forhovertowhite btn--secondary" type="submit">Search</button>
+            </form>
+        </div> 
+
+
+            
+    </nav>
+    <div class="groupofmains">
+        <div class="contain-left-right">
+            <div class="right">
+                <div class="scroll-bg">
+                    <div class="scroll-div">
+                        <div class="scroll-object">
+                            <div class="right-inside-div1 for-transaction  ">
+                                <img style="border-radius: 10px;" src="img2/poster (1).png" alt="">
+                                <img style="border-radius: 10px;" src="img2/poster (3).png" alt="">
+                                <img style="border-radius: 10px;" src="img2/poster (2).png" alt="">
+                            </div>
+                            <!-- -----------latest-release--- -->
+                            <div class="right-inside-div2">
+                                <h6 class="Headingforsection">Latest Release</h6>
+                                
+                                <div class="itcontaines-latestRelease">
+                                    <div class="latest-release-items">
+                                        <div class="play-btn-hover">
+                                            <!-- <img class="opacity-dec" src="img2/1.jpg" alt=""> -->
+                                            <div class="hoverplay1">
+                                                <img src="img2/1.jpg" alt="Avatar" class="image" style="width:100%">
+                                                <div class="middle">
+                                                    <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="19"
+                                                            height="19" fill="black" class="bi bi-play-fill"
+                                                            viewBox="0 0 16 16">
+                                                            <path
+                                                                d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                                                        </svg></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="latest-release-items-sub1">
+                                            <div>
+                                                <h6>Anti Hero</h6>
+                                                    <p>Oct,21</p>
+                                            </div>
+                                            <!-- <div>
+                                                <p>time</p>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="latest-release-items">
+                                        <!-- <img src="img2/6.jpg" alt=""> -->
+                                        <div class="hoverplay1">
+                                            <img src="img2/6.jpg" alt="Avatar" class="image" style="width:100%">
+                                            <div class="middle">
+                                                <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="19"
+                                                        height="19" fill="black" class="bi bi-play-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                                                    </svg></div>
+                                            </div>
+                                        </div>
+                                        <div class="latest-release-items-sub1">
+                                            <div>
+                                                <h6>Perfect</h6>
+                                                <p>Nov,21</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="latest-release-items">
+                                        <!-- <img src="img2/7.jpg" alt=""> -->
+                                        <div class="hoverplay1">
+                                            <img src="img2/7.jpg" alt="Avatar" class="image" style="width:100%">
+                                            <div class="middle">
+                                                <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="19"
+                                                        height="19" fill="black" class="bi bi-play-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                                                    </svg></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="latest-release-items-sub1">
+                                            <div>
+                                                <h6>Sparkel</h6>
+                                                <p>June,18</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="latest-release-items">
+                                        <!-- <img src="img2/8.jpg" alt=""> -->
+                                        <div class="hoverplay1">
+                                            <img src="img2/8.jpg" alt="Avatar" class="image" style="width:100%">
+                                            <div class="middle">
+                                                <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="19"
+                                                        height="19" fill="black" class="bi bi-play-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                                                    </svg></div>
+                                            </div>
+                                        </div>
+                                        <div class="latest-release-items-sub1">
+                                            <div>
+                                                <h6>Rockstar</h6>
+                                                <p>Dec,22</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="latest-release-items">
+                                        <!-- <img src="img2/11.jpg" alt=""> -->
+                                        <div class="hoverplay1">
+                                            <img src="img2/sidhu5.jpg" alt="Avatar" class="image" style="width:100%">
+                                            <div class="middle">
+                                                <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="19"
+                                                        height="19" fill="black" class="bi bi-play-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                                                    </svg></div>
+                                            </div>
+                                        </div>
+                                        <div class="latest-release-items-sub1">
+                                            <div>
+                                                <h6>Tarif Karoon</h6>
+                                                <p>jun,22</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="latest-release-items">
+                                        <!-- <img src="img2/6.jpg" alt=""> -->
+                                        <div class="hoverplay1">
+                                            <img  src="img2/1.jpg" alt="Avatar" class="image" style="width: 100px;">                                            <div class="middle">
+                                                <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="19"
+                                                        height="19" fill="black" class="bi bi-play-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                                                    </svg></div>
+                                            </div>
+                                        </div>
+                                        <div class="latest-release-items-sub1">
+                                            <div>
+                                                <h6>Perfect</h6>
+                                                <p>Nov,21</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="latest-release-items">
+                                        <!-- <img src="img2/6.jpg" alt=""> -->
+                                        <div class="hoverplay1">
+                                            <img src="img2/6.jpg" alt="Avatar" class="image" style="width:100%">
+                                            <div class="middle">
+                                                <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="19"
+                                                        height="19" fill="black" class="bi bi-play-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                                                    </svg></div>
+                                            </div>
+                                        </div>
+                                        <div class="latest-release-items-sub1">
+                                            <div>
+                                                <h6>Perfect</h6>
+                                                <p>Nov,21</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="latest-release-items">
+                                        <!-- <img src="img/sample-right-div1.jpg" alt=""> -->
+                                        <div class="hoverplay1">
+                                            <img src="img2/10.png" alt="Avatar" class="image" style="width:100%">
+                                            <div class="middle">
+                                                <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="19"
+                                                        height="19" fill="black" class="bi bi-play-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                                                    </svg></div>
+                                            </div>
+                                        </div>
+                                        <div class="latest-release-items-sub1">
+                                            <div>
+                                                <h6>MATRIX</h6>
+                                                <p>May,22</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ----------------popular-artist------------- -->
+                            <div class="right-inside-div3">
+                                <h6 class="Headingforsection">Popluar Artist</h6>
+                                <div class="contains-popular-artist">
+                                    <div>
+                                        <!-- <img src="img2/art1.jpeg" alt=""> -->
+                                        <div class="hoverplay1-2">
+                                            <img src="img2/sidhu1.jpg" alt="Avatar" class="image-2" style="width:100%">
+                                            <div class="middle-2">
+                                                <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="29"
+                                                        height="29" fill="black" class="bi bi-play-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                                                    </svg></div>
+                                            </div>
+                                        </div>
+                                        <p>Sidhu Moosewala</p>
+                                    </div>
+                                    <div>
+                                        <!-- <img src="img2/art2.jpg" alt=""> -->
+                                        <div class="hoverplay1-2">
+                                            <img src="img2/art2.jpg" alt="Avatar" class="image-2" style="width:100%">
+                                            <div class="middle-2">
+                                                <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="29"
+                                                        height="29" fill="black" class="bi bi-play-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                                                    </svg></div>
+                                            </div>
+                                        </div>
+                                        <p>One Direction</p>
+                                    </div>
+                                    <div>
+                                        <!-- <img src="img2/art3.jfif" alt=""> -->
+                                        <div class="hoverplay1-2">
+                                            <img src="img2/art3.jfif" alt="Avatar" class="image-2" style="width:100%">
+                                            <div class="middle-2">
+                                                <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="29"
+                                                        height="29" fill="black" class="bi bi-play-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                                                    </svg></div>
+                                            </div>
+                                        </div>
+
+                                        <p>Krishnakumar.</p>
+                                    </div>
+                                    <div>
+                                        <!-- <img src="img2/art4.jpg" alt=""> -->
+                                        <div class="hoverplay1-2">
+                                            <img src="img2/art4.jpg" alt="Avatar" class="image-2" style="width:100%">
+                                            <div class="middle-2">
+                                                <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="29"
+                                                        height="29" fill="black" class="bi bi-play-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                                                    </svg></div>
+                                            </div>
+                                        </div>
+
+                                        <p>Atif Aslam</p>
+                                    </div>
+                                    <div>
+                                        <!-- <img src="img2/art5.jpg" alt=""> -->
+                                        <div class="hoverplay1-2">
+                                            <img src="img2/art5.jpg" alt="Avatar" class="image-2" style="width:100%">
+                                            <div class="middle-2">
+                                                <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="29"
+                                                        height="29" fill="black" class="bi bi-play-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                                                    </svg></div>
+                                            </div>
+                                        </div>
+
+                                        <p>Shreya Goshal</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------------------Mood--------- -->
+                            <div class="right-inside-div3 mooods-div-for-bg">
+                                <h6 class="Headingforsection">Moods</h6>
+                                <div class="contains-popular-artist">
+                                    <div>
+                                        <img class="images-mood" src="img2/stereo.png" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="images-mood" src="img2/love.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="images-mood" src="img2/retro.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="images-mood" src="img2/chill.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="images-mood" src="img2/workout.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="images-mood" src="img2/rock.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="images-mood" src="img2/pop.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------after-mooods----------------- -->
+                            <div class="after-moods">
+                                <img src="img2/poster (3).png" alt="">
+                                <img src="img2/poster (2).png" alt="">
+                                <img src="img2/poster (1).png" alt="">
+                            </div>
+                            <!-- ----------------latest-hindi--------------- -->
+                            <div class="latest-hindi">
+                                <h6 class="Headingforsection">Latest Hindi</h6>
+                                <div class="latest-hindi-containes">
+                                    <div class="latest-hindi-item">
+                                        <img src="img2/sidhu3.jpg" alt="">
+                                        <br>
+                                        <span >Levels</span><br>
+                                        <span>Sidhu..</span>
+                                    </div>
+                                    <div class="latest-hindi-item">
+                                        <img src="img2/h1.jfif" alt="">
+                                        <br>
+                                        <span>Bang Bang </span><br>
+                                        <span>Arjit</span>
+                                    </div>
+                                    <div class="latest-hindi-item">
+                                        <img src="img2/h2.jpg" alt="">
+                                        <br>
+                                        <span>Kabil </span><br>
+                                        <span>Rajesh Roshan</span>
+                                    </div>
+                                    <div class="latest-hindi-item">
+                                        <img src="img2/h3.jfif" alt="">
+                                        <br>
+                                        <span>Tamasha </span><br>
+                                        <span>KK.</span>
+                                    </div>
+                                    <div class="latest-hindi-item">
+                                        <img src="img2/h4.jfif" alt="">
+                                        <br>
+                                        <span>Ae dil </span><br>
+                                        <span>AR.Rahman</span>
+
+                                    </div>
+                                    <div class="latest-hindi-item">
+                                        <img src="img2/h5.jpg" alt="">
+                                        <br>
+                                        <span>Highway </span><br>
+                                        <span>AR.Rahman</span>
+                                    </div>
+                                    <div class="latest-hindi-item">
+                                        <img src="img2/h6.jfif" alt="">
+                                        <br>
+                                        <span>Ram lela </span><br>
+                                        <span>Alka ji.</span>
+                                    </div>
+                                    <div class="latest-hindi-item">
+                                        <img src="img2/h7.jpg" alt="">
+                                        <br>
+                                        <span>Vistel </span><br>
+                                        <span>Kapil Dev</span>
+                                    </div>
+                                    <div class="latest-hindi-item">
+                                        <img src="img2/h8.jfif" alt="">
+                                        <br>
+                                        <span>Hindi Medium </span><br>
+                                        <span>Ropal Mittal</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------------------latest english --------------- -->
+                            <div class="latest-english">
+                                <h6 class="Headingforsection">Latest english</h6>
+                                <div class="latest-english-containes">
+                                    <div class="latest-english-item">
+                                        <img src="img2/e1.jfif" alt="">
+                                        <br>
+                                        <span>Smak That </span><br>
+                                        <span>Repui</span>
+                                    </div>
+                                    <div class="latest-english-item">
+                                        <img src="img2/e2.jpg" alt="">
+                                        <br>
+                                        <span>Despacito </span><br>
+                                        <span>Ft.Yankee</span>
+                                    </div>
+                                    <div class="latest-english-item">
+                                        <img src="img2/e3.jfif" alt="">
+                                        <br>
+                                        <span>Baby </span><br>
+                                        <span>Justin</span>
+                                    </div>
+                                    <div class="latest-english-item">
+                                        <img src="img2/sidhu5.jpg" alt="">
+                                        <br>
+                                        <span>No Name </span><br>
+                                        <span>Sidhu.</span>
+                                    </div>
+                                    <div class="latest-english-item">
+                                        <img src="img2/13.jpg" alt="">
+                                        <br>
+                                        <span>Kalug </span><br>
+                                        <span>Neha</span>
+                                    </div>
+                                    <div class="latest-english-item">
+                                        <img src="img2/14.jpg" alt="">
+                                        <br>
+                                        <span>Chand Mera </span><br>
+                                        <span>Sonu Sood</span>
+                                    </div>
+                                    <div class="latest-english-item">
+                                        <img src="img2/15.jpg" alt="">
+                                        <br>
+                                        <span>Endore </span><br>
+                                        <span>Recover</span>
+                                    </div>
+                                    <div class="latest-english-item">
+                                        <img src="img2/4.jpg" alt="">
+                                        <br>
+                                        <span>Dostana </span><br>
+                                        <span>Arjit</span>
+                                    </div>
+                                    <div class="latest-english-item">
+                                        <img src="img2/8.jpg" alt="">
+                                        <br>
+                                        <span>Rockstar </span><br>
+                                        <span>Anuv jain<span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -------------------------trending-------------------------- -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="left">
+                <div class="left-div1">
+                    <div>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="white"
+                                class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+                                <path
+                                    d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z" />
+                                <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z" />
+                                <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z" />
+                            </svg> </span>
+                            <a href="./index.html"><span style="color: white;">Your Jam</span>
+                            </a>
+                    </div>
+                    <div>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor"
+                                class="bi bi-node-plus-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M11 13a5 5 0 1 0-4.975-5.5H4A1.5 1.5 0 0 0 2.5 6h-1A1.5 1.5 0 0 0 0 7.5v1A1.5 1.5 0 0 0 1.5 10h1A1.5 1.5 0 0 0 4 8.5h2.025A5 5 0 0 0 11 13zm.5-7.5v2h2a.5.5 0 0 1 0 1h-2v2a.5.5 0 0 1-1 0v-2h-2a.5.5 0 0 1 0-1h2v-2a.5.5 0 0 1 1 0z" />
+                            </svg></span>
+                            <a style="color: black; text-decoration: none;" href="./playlist.html"><span>Last Listeing</span>
+                            </a>
+                    </div>
+                    <div>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor"
+                                class="bi bi-node-plus-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M11 13a5 5 0 1 0-4.975-5.5H4A1.5 1.5 0 0 0 2.5 6h-1A1.5 1.5 0 0 0 0 7.5v1A1.5 1.5 0 0 0 1.5 10h1A1.5 1.5 0 0 0 4 8.5h2.025A5 5 0 0 0 11 13zm.5-7.5v2h2a.5.5 0 0 1 0 1h-2v2a.5.5 0 0 1-1 0v-2h-2a.5.5 0 0 1 0-1h2v-2a.5.5 0 0 1 1 0z" />
+                            </svg></span>
+                            <a style="color: black; text-decoration: none;" href="./playlist.html "><span>Last Listeing</span></a>
+
+                        <br>
+                    </div>
+                </div>
+                <div class="left-div2">
+                    <div class="scroll-bg-2">
+                        <div class="scroll-div-2">
+                            <div class="scroll-object-2">
+                                <div class="containes-card">
+                                    <div class="card-div2">
+                                        <div>
+                                            <img src="img2/1.jpg" alt="">
+                                        </div>
+                                        <div class="card-for-bold-hover">
+                                            <span>Anti Hero </span><br>
+                                            <span>Taylo Switt </span>
+                                        </div>
+                                        <div><a class="liked" style="color: beige;" href=""><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+                                                    class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                                </svg></a></div>
+                                    </div>
+                                    <div class="card-div2">
+                                        <div>
+                                            <img src="img2/2.png" alt="">
+                                        </div>
+                                        <div class="card-for-bold-hover">
+                                            <span>On My Way </span><br>
+                                            <span>Alan Walker </span>
+                                        </div>
+                                        <div><a class="liked" style="color: beige;" href=""><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+                                            class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                        </svg></a></div>                                    </div>
+                                    <div class="card-div2">
+                                        <div>
+                                            <img src="img2/3.jpg" alt="">
+                                        </div>
+                                        <div class="card-for-bold-hover">
+                                            <span>Shinunog. </span><br>
+                                            <span>Fujil Kaze</span>
+                                        </div>
+                                        <div><a class="liked" style="color: beige;" href=""><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+                                            class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                        </svg></a></div>                                    </div>
+                                    <div class="card-div2">
+                                        <div>
+                                            <img src="img2/4.jpg" alt="">
+                                        </div>
+                                        <div class="card-for-bold-hover">
+                                            <span>Desi Girl </span><br>
+                                            <span>Vishal Dadl.</span>
+                                        </div>
+                                        <div><a class="liked" style="color: beige;" href=""><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+                                            class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                        </svg></a></div>                                    </div>
+                                    <div class="card-div2">
+                                        <div>
+                                            <img src="img2/5.jpg" alt="">
+                                        </div>
+                                        <div class="card-for-bold-hover">
+                                            <span>Sajna Ji.</span><br>
+                                            <span>Sunidhi </span>
+                                        </div>
+                                        <div><a class="liked" style="color: beige;" href=""><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+                                            class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                        </svg></a></div>                                    </div>
+                                    <div class="card-div2">
+                                        <div>
+                                            <img src="img2/6.jpg" alt="">
+                                        </div>
+                                        <div class="card-for-bold-hover">
+                                            <span>Perfect </span><br>
+                                            <span>Ed She. </span>
+                                        </div>
+                                        <div><a class="liked" style="color: beige;" href=""><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+                                            class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                        </svg></a></div>                                    </div>
+                                    <div class="card-div2">
+                                        <div>
+                                            <img src="img2/7.jpg" alt="">
+                                        </div>
+                                        <div class="card-for-bold-hover">
+                                            <span>Sparkle</span><br>
+                                            <span>Radwimps </span>
+                                        </div>
+                                        <div><a class="liked" style="color: beige;" href=""><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+                                            class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                        </svg></a></div>                                    </div>
+                                    <div class="card-div2">
+                                        <div>
+                                            <img src="img2/8.jpg" alt="">
+                                        </div>
+                                        <div class="card-for-bold-hover">
+                                            <span>Nadaan Pari </span><br>
+                                            <span>Mohit Chauhan</span>
+                                        </div>
+                                        <div><a class="liked" style="color: beige;" href=""><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+                                            class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                        </svg></a></div>                                    </div>
+                                    <div class="card-div2">
+                                        <div>
+                                            <img src="img2/9.jpg" alt="">
+                                        </div>
+                                        <div class="card-for-bold-hover">
+                                            <span> Aisa Geet.. </span><br>
+                                            <span>Abhijeet </span>
+                                        </div>
+                                        <div><a class="liked" style="color: beige;" href=""><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+                                            class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                        </svg></a></div>                                    </div>
+                                    <div class="card-div2">
+                                        <div>
+                                            <img src="img2/10.png" alt="">
+                                        </div>
+                                        <div class="card-for-bold-hover">
+                                            <span>Night Changes </span><br>
+                                            <span>One Direction </span>
+                                        </div>
+                                        <div><a class="liked" style="color: beige;" href=""><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+                                            class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                        </svg></a></div>                                    </div>
+                                    <div class="card-div2">
+                                        <div>
+                                            <img src="img2/11.jpg" alt="">
+                                        </div>
+                                        <div class="card-for-bold-hover">
+                                            <span>Taarif Changes </span><br>
+                                            <span>Sanam </span>
+                                        </div>
+                                        <div><a class="liked" style="color: beige;" href=""><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+                                            class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                        </svg></a></div>                                    </div>
+                                    <div class="card-div2">
+                                        <div>
+                                            <img src="img2/12.jpg" alt="">
+                                        </div>
+                                        <div class="card-for-bold-hover">
+                                            <span>Tell ME Why </span><br>
+                                            <span>Backstreet Boys </span>
+                                        </div>
+                                        <div><a class="liked" style="color: beige;" href=""><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+                                            class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                        </svg></a></div>                                    </div>
+                                    <div class="card-div2">
+                                        <div>
+                                            <img src="img/sample-right-div1.jpg" alt="">
+                                        </div>
+                                        <div class="card-for-bold-hover">
+                                            <span>Matrix </span><br>
+                                            <span>Quit </span>
+                                        </div>
+                                        <div><a class="liked" style="color: beige;" href=""><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+                                            class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                        </svg></a></div>                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="playbar">            
+            <div>
+                <img style="height: 50px; width: 50px; margin: 5px 15px;" src="img2/HANUMAN-JI.jpg" alt="">
+                <p style="display: inline-block;">Ram Mere Sage</p><br>
+            </div>
+            <div style="display: flex; margin: 20px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor"
+                    class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+                    <path
+                        d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z" />
+                    <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z" />
+                    <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor"
+                    class="bi bi-skip-backward-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                    <path
+                        d="M11.729 5.055a.5.5 0 0 0-.52.038L8.5 7.028V5.5a.5.5 0 0 0-.79-.407L5 7.028V5.5a.5.5 0 0 0-1 0v5a.5.5 0 0 0 1 0V8.972l2.71 1.935a.5.5 0 0 0 .79-.407V8.972l2.71 1.935A.5.5 0 0 0 12 10.5v-5a.5.5 0 0 0-.271-.445z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor"
+                    class="bi bi-play-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor"
+                    class="bi bi-skip-forward-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                    <path
+                        d="M4.271 5.055a.5.5 0 0 1 .52.038L7.5 7.028V5.5a.5.5 0 0 1 .79-.407L11 7.028V5.5a.5.5 0 0 1 1 0v5a.5.5 0 0 1-1 0V8.972l-2.71 1.935a.5.5 0 0 1-.79-.407V8.972l-2.71 1.935A.5.5 0 0 1 4 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                </svg>
+                <div  id="audio-player-container">
+                    <!-- <button id="play-icon"></button> -->
+                    <span id="current-time" class="time">1:01</span>
+                    <input style="width: 400px;" type="range" id="seek-slider" max="100" value="0">
+                    <span id="duration" class="time">3:24</span>
+                </div>
+            </div>
+            <div >
+                <output id="volume-output">100</output>
+                <input style="margin-top: 21px;" type="range" id="volume-slider" max="100" value="100">
+                <button id="mute-icon"></button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

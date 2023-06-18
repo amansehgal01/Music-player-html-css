@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/12a41c30dd.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+ <link rel="stylesheet" href="playlist.css" />
+ <link rel="stylesheet" href="style.css">
+
+    <title>Playlist Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <!-- ------------------------------------------  logo --------------------------------------- -->
+            <div class="logo">
+                <a href=""><img style="width: 280px;height: 45px;" src="img2/Aman_sehgal-removebg-preview.png"></a>
+            </div>
+            
+            <a href="./index.html"><button type="button" class="btn btn-secondary"> Home</button>
+                <a href="./upload.html"><button type="button" class="btn btn-secondary">Upload+</button>
+                <a href="./signin.html"><button type="button" class="btn btn-secondary">Sign IN/UP</button>
+            <!-- ------------------------------------ favourite --------------------------- -->
+            <div class="fav"><a href=""></a></div>
+            <!-- ------------------------------------------  search bar ----------------------------------- -->
+            <div class="wrapper">
+                <div class="search">
+                    <span class="uil uil-search">
+                    </span>
+                    <input placeholder="Search" type="text" />
+                </div>
+            </div>
+
+            <div class="bell">
+                <i class="bi bi-bell-fill"></i>
+            </div>
+
+            <div class="profile">
+                <!-- <img src="image/ana_pic.png"> -->
+            </div>
+
+        </div>
+        <!-- -------------------------------------------------- menu side ------------------------------------------- -->
+        <div class="menu-side">
+
+            <!-- ------------------------------------------- similar artist ------------------------------------------ -->
+            <h1>Similar Artists</h1>
+
+            <div class="menu-song">
+                <li class="song-items">
+                    <span>01</span>
+                    <img src="image/1.jpg" alt="">
+                    <h5>Anti-Hero
+                        <div class="subtitle">Taylor Swift</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>02</span>
+                    <img src="image/2.png" alt="">
+                    <h5>On My Way
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>03</span>
+                    <img src="image/3.jpg" alt="">
+                    <h5>Shinunoge-e-wa
+                        <div class="subtitle">Fujii Kaze</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>04</span>
+                    <img src="image/4.jpg" alt="">
+                    <h5>Desi Girl
+                        <div class="subtitle">Vishal Dadlani|Sunidhi Chauhan </div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>05</span>
+                    <img src="image/5.jpg" alt="">
+                    <h5>Sajna Ji Vari Vari
+                        <div class="subtitle">Sunidhi Chauhan</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>06</span>
+                    <img src="image/6.jpg" alt="">
+                    <h5>Perfect
+                        <div class="subtitle">Ed Sheeran</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>07</span>
+                    <img src="image/7.jpg" alt="">
+                    <h5>Sparkle
+                        <div class="subtitle">Radwimps</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>08</span>
+                    <img src="image/8.jpg" alt="">
+                    <h5>Nadaan Parindey
+                        <div class="subtitle">Mohit Chauhan</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>09</span>
+                    <img src="image/9.jpg" alt="">
+                    <h5>Main Koi Aisa Geet Gaaon
+                        <div class="subtitle">Abhijeet|Alka Yagnik</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>10</span>
+                    <img src="image/10.png" alt="">
+                    <h5>Night Changes
+                        <div class="subtitle">One Direction</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>11</span>
+                    <img src="image/11.jpg" alt="">
+                    <h5>Taarif Karoon
+                        <div class="subtitle">SANAM</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>12</span>
+                    <img src="image/12.jpg" alt="">
+                    <h5>Tell Me Why
+                        <div class="subtitle">Backstreet Boys</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>13</span>
+                    <img src="image/13.jpg" alt="">
+                    <h5>Aadat
+                        <div class="subtitle">Atif Aslam</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>14</span>
+                    <img src="image/14.jpg" alt="">
+                    <h5>Ajab Si
+                        <div class="subtitle">KK</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>15</span>
+                    <img src="image/15.jpg" alt="">
+                    <h5>Mocking Bird
+                        <div class="subtitle">Eminem</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+            </div>
+            <br>
+            <!-- -------------------------------------- recently played ------------------------------------------ -->
+            <h1>Recently Played</h1>
+
+            <div class="menu-song">
+                <li class="song-items">
+                    <span>01</span>
+                    <img src="image/1.jpg" alt="">
+                    <h5>Anti-Hero
+                        <div class="subtitle">Taylor Swift</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>02</span>
+                    <img src="image/2.png" alt="">
+                    <h5>On My Way
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>03</span>
+                    <img src="image/3.jpg" alt="">
+                    <h5>Shinunoge-e-wa
+                        <div class="subtitle">Fujii Kaze</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>04</span>
+                    <img src="image/4.jpg" alt="">
+                    <h5>Desi Girl
+                        <div class="subtitle">Vishal Dadlani|Sunidhi Chauhan </div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>05</span>
+                    <img src="image/5.jpg" alt="">
+                    <h5>Sajna Ji Vari Vari
+                        <div class="subtitle">Sunidhi Chauhan</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>06</span>
+                    <img src="image/6.jpg" alt="">
+                    <h5>Perfect
+                        <div class="subtitle">Ed Sheeran</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>07</span>
+                    <img src="image/7.jpg" alt="">
+                    <h5>Sparkle
+                        <div class="subtitle">Radwimps</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>08</span>
+                    <img src="image/8.jpg" alt="">
+                    <h5>Nadaan Parindey
+                        <div class="subtitle">Mohit Chauhan</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>09</span>
+                    <img src="image/9.jpg" alt="">
+                    <h5>Main Koi Aisa Geet Gaaon
+                        <div class="subtitle">Abhijeet|Alka Yagnik</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>10</span>
+                    <img src="image/10.png" alt="">
+                    <h5>Night Changes
+                        <div class="subtitle">One Direction</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>11</span>
+                    <img src="image/11.jpg" alt="">
+                    <h5>Taarif Karoon
+                        <div class="subtitle">SANAM</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>12</span>
+                    <img src="image/12.jpg" alt="">
+                    <h5>Tell Me Why
+                        <div class="subtitle">Backstreet Boys</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>13</span>
+                    <img src="image/13.jpg" alt="">
+                    <h5>Aadat
+                        <div class="subtitle">Atif Aslam</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>14</span>
+                    <img src="image/14.jpg" alt="">
+                    <h5>Ajab Si
+                        <div class="subtitle">KK</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+                <li class="song-items">
+                    <span>15</span>
+                    <img src="image/15.jpg" alt="">
+                    <h5>Mocking Bird
+                        <div class="subtitle">Eminem</div>
+                    </h5>
+                    <i class="bi playlist-play bi-heart-fill" id="1"></i>
+                </li>
+
+            </div>
+        </div>
+
+
+        <!-- ------------------------------------------- song side --------------------------------------- -->
+
+        <div class="song-side">
+
+            <!-- ------------------------------------- artist description ------------------------------------- -->
+            <div class="about-artist">
+                <div class="art-img">
+                    <img src="image/poster-taylor.jpeg">
+                </div>
+
+                <div class="art-desc">
+                    <div class="art-name">
+                        <div>
+                            <h2>Taylor Swift</h2>
+                            <span id="grey"> American Artist </span>
+                        </div>
+                        <div><span id="grey">71M Followers</span></div>
+                    </div>
+                    <div class="art-para">
+                        <span id="grey">Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter.
+                            Her genre-spanning discography, songwriting and artistic reinventions have received critical
+                            praise and wide media coverage. Born in West Reading, Pennsylvania, Swift moved to Nashville
+                            at age 14 to become a country artist. </span>
+                    </div>
+                    <div class="art-btn">
+
+                        <button type="button" class="btn-grad">Play All</button> &nbsp;&nbsp;&nbsp;<span> Follow </span>
+                        <p>564 Tracks | 57 Albums
+                        <p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- ----------------------------------------- song playlist -------------------------------- -->
+            <div class="song-list">
+                <div class="play-song">
+                    <div class="song-numb">
+                        <h5>01</h5>
+                    </div>
+                    <div class="song-img">
+                        <img src="image/t1.jfif">
+                    </div>
+                    <div class="song-name">
+                        <h5>Paper Rings
+                            <div class="sub">Lover</div>
+                        </h5>
+
+                    </div>
+                    <div class="like">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+
+                <div class="play-song">
+                    <div class="song-numb">
+                        <h5>02</h5>
+                    </div>
+                    <div class="song-img">
+                        <img src="image/t2.jfif">
+                    </div>
+                    <div class="song-name">
+                        <h5>Better Than Revenge
+                            <div class="sub">Speak Now</div>
+                        </h5>
+
+                    </div>
+                    <div class="like">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+
+                <div class="play-song">
+                    <div class="song-numb">
+                        <h5>03</h5>
+                    </div>
+                    <div class="song-img">
+                        <img src="image/t3.jfif">
+                    </div>
+                    <div class="song-name">
+                        <h5>Gorgeous
+                            <div class="sub">Reputation</div>
+                        </h5>
+
+                    </div>
+                    <div class="like">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+
+                <div class="play-song">
+                    <div class="song-numb">
+                        <h5>04</h5>
+                    </div>
+                    <div class="song-img">
+                        <img src="image/t4.jfif">
+                    </div>
+                    <div class="song-name">
+                        <h5>We Are Never Getting Back Together
+                            <div class="sub">Red</div>
+                        </h5>
+
+                    </div>
+                    <div class="like">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+
+                <div class="play-song">
+                    <div class="song-numb">
+                        <h5>05</h5>
+                    </div>
+                    <div class="song-img">
+                        <img src="image/t5.jfif">
+                    </div>
+                    <div class="song-name">
+                        <h5>Blank Space
+                            <div class="sub">1989</div>
+                        </h5>
+
+                    </div>
+                    <div class="like">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+
+                <div class="play-song">
+                    <div class="song-numb">
+                        <h5>06</h5>
+                    </div>
+                    <div class="song-img">
+                        <img src="image/t6.jfif">
+                    </div>
+                    <div class="song-name">
+                        <h5>Love Story
+                            <div class="sub">Fearless</div>
+                        </h5>
+
+                    </div>
+                    <div class="like">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+
+                <div class="play-song">
+                    <div class="song-numb">
+                        <h5>07</h5>
+                    </div>
+                    <div class="song-img">
+                        <img src="image/t7.jfif">
+                    </div>
+                    <div class="song-name">
+                        <h5>Dear Reader
+                            <div class="sub">Midnight</div>
+                        </h5>
+
+                    </div>
+                    <div class="like">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+
+                <div class="play-song">
+                    <div class="song-numb">
+                        <h5>08</h5>
+                    </div>
+                    <div class="song-img">
+                        <img src="image/t8.jfif">
+                    </div>
+                    <div class="song-name">
+                        <h5>you Belong With Me
+                            <div class="sub">Fearless</div>
+                        </h5>
+
+                    </div>
+                    <div class="like">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+
+                <div class="play-song">
+                    <div class="song-numb">
+                        <h5>09</h5>
+                    </div>
+                    <div class="song-img">
+                        <img src="image/t9.jfif">
+                    </div>
+                    <div class="song-name">
+                        <h5>Bad Blood
+                            <div class="sub">1989</div>
+                        </h5>
+
+                    </div>
+                    <div class="like">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+
+                <div class="play-song">
+                    <div class="song-numb">
+                        <h5>10</h5>
+                    </div>
+                    <div class="song-img">
+                        <img src="image/t10.jfif">
+                    </div>
+                    <div class="song-name">
+                        <h5>ME!
+                            <div class="sub">Lover</div>
+                        </h5>
+
+                    </div>
+                    <div class="like">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ------------------------------------------- music player -------------------------------- -->
+        <div class="master-play">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+
+            <div>
+                <img src="image/4.jpg" id="poster_master-play">
+
+            </div>
+            <h5 id="title"> Jaane Kyun
+                <div class="subtitle">Vishal Dadlani</div>
+            </h5>
+
+            <div class="icons">
+                <i class="bi bi-music-note-beamed"></i>
+                <i class="bi bi-skip-start-fill"></i>
+                <i class="bi bi-play-fill"></i>
+                <i class="bi bi-skip-end-fill"></i>
+                <i class="bi bi-cloud-arrow-down-fill"></i>
+            </div>
+
+            <span id="currentstart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" max="100">
+                <div class="bar2" class="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentend">0:30</span>
+            <div class="vol">
+                <i class="bi bi-volume-down"></i>
+                <input type="range" id="vol" min="0" max="100">
+            </div>
+
+        </div>
+
+
+
+
+
+    </header>
+</body>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>
